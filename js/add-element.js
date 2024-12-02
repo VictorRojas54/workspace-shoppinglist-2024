@@ -21,7 +21,7 @@ $('#add').click(addElement);
 function addElement() {
   // add a new element
   // add a input text box
-$('#todo').append('<input type="text">');
+$('#todo').append('<li><input type="text"></li>');
   // whenever the user are done add the element
   $('input').blur(convertLi);
   $('#save').text("Need Save to Database");
